@@ -1,0 +1,21 @@
+{
+    "salary_cap": 50000,
+    "roster_slots": [
+      {"slot": "Sprinter", "count": 2},
+      {"slot": "Distance", "count": 2},
+      {"slot": "Thrower", "count": 1},
+      {"slot": "Jumper", "count": 1},
+      {"slot": "Flex", "count": 2},
+      {"slot": "Bench", "count": 3}
+    ],
+    "bench_substitution": {
+      "max_subs": 3,
+      "trigger_statuses": ["DNS", "DNF"],
+      "replacement_rule": "highest_scoring_bench"
+    },
+    "multi_event": {
+      "definition": ">=2_scoring_events",
+      "eligibility": ["Flex", "Bench"],
+      "score_rule": "sum_all_event_scores"
+    }
+  }
