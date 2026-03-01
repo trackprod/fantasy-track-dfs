@@ -1,0 +1,20 @@
+{
+    "version": "1.0",
+    "categories": ["Sprinter", "Distance", "Jumper", "Thrower"],
+    "events": [
+      {"code":"60m","name":"60m","category":"Sprinter","indoor":true,"outdoor":false,"mark_type":"time"},
+      {"code":"200m","name":"200m","category":"Sprinter","indoor":true,"outdoor":true,"mark_type":"time"},
+      {"code":"400m","name":"400m","category":"Sprinter","indoor":true,"outdoor":true,"mark_type":"time"},
+      {"code":"800m","name":"800m","category":"Distance","indoor":true,"outdoor":true,"mark_type":"time"},
+      {"code":"Mile","name":"Mile","category":"Distance","indoor":true,"outdoor":true,"mark_type":"time"},
+      {"code":"3000m","name":"3000m","category":"Distance","indoor":true,"outdoor":true,"mark_type":"time"},
+      {"code":"5000m","name":"5000m","category":"Distance","indoor":true,"outdoor":true,"mark_type":"time"},
+      {"code":"RW5000","name":"5000m Race Walk","category":"Distance","indoor":true,"outdoor":false,"mark_type":"time"},
+      {"code":"LJ","name":"Long Jump","category":"Jumper","indoor":true,"outdoor":true,"mark_type":"distance"},
+      {"code":"TJ","name":"Triple Jump","category":"Jumper","indoor":true,"outdoor":true,"mark_type":"distance"},
+      {"code":"HJ","name":"High Jump","category":"Jumper","indoor":true,"outdoor":true,"mark_type":"height"},
+      {"code":"PV","name":"Pole Vault","category":"Jumper","indoor":true,"outdoor":true,"mark_type":"height"},
+      {"code":"SP","name":"Shot Put","category":"Thrower","indoor":true,"outdoor":true,"mark_type":"distance"},
+      {"code":"WT","name":"Weight Throw","category":"Thrower","indoor":true,"outdoor":false,"mark_type":"distance"}
+    ]
+  }

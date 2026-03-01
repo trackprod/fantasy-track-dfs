@@ -1,0 +1,21 @@
+{
+    "version": "1.0",
+    "base_salary_floor": 3500,
+    "base_salary_ceiling": 13000,
+    "seed_curve": {
+      "min": 3000,
+      "range": 9000,
+      "exponent": 1.7,
+      "round_to": 100
+    },
+    "aq_mark": {
+      "mark_raw_values": ["0", "0.0", 0, 0.0],
+      "default_salary": 10500,
+      "send_to_review_queue": true
+    },
+    "multi_event": {
+      "weight_exponent": 1.4,
+      "risk_adjust": {"min": 0.75, "max": 1.0},
+      "bonus_per_extra_event": 0.18
+    }
+  }
